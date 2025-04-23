@@ -1,9 +1,9 @@
 let obj = {
-    rodas: 8,
-    passageiros: 40,
-    porta: 2,
+    Rodas: 8,
+    Passageiros: 40,
+    Portas: 2,
 };
 
-console.log(obj.rodas);
-console.log(obj.passageiros);
-console.log(obj.porta);
+console.log(obj.Rodas);
+console.log(obj.Passageiros);
+console.log(obj.Portas);
