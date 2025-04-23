@@ -1,15 +1,13 @@
 let obj = {
-    rodas: 8,
-    passageiros: 40,
-    porta: 2,
+    Rodas: 8,
+    Passageiros: 40,
+    Portas: 2,
 };
 
-obj.janelas = 20;
+delete obj.Rodas;
 
-console.log(obj.janelas);
+console.log(obj.Rodas);
 
-delete obj.rodas;
+obj.Janelas = 20;
 
-console.log(obj.rodas);
-
-console.log(obj);
+console.log(obj.Janelas);
