@@ -1,14 +1,14 @@
-let num = [1,2,3,4,5,6,7,8,9];
-let num1 = [1,2,3,4];
+let nums = [1, 2, 3, 4, 5, 6];
+let nums2 = [1, 2, 3];
 
-function verificarNumeros(arr){
+function verificarNumerosArray(arr){
     if(arr.length >= 5){
-        console.log("Tem mais de 5 Elementos");
-    }else {
-        console.log("Tem menos de 5 elementos");
+        console.log("Possui Mais de 5 elementos");
+    }else{
+        console.log("Possui menos de 5 ementos");
     }
 }
 
 
-verificarNumeros(num);
-verificarNumeros(num1);
+verificarNumerosArray(nums);
+verificarNumerosArray(nums2);
