@@ -1,5 +1,5 @@
-let nome = ["Ana", "Carol", "Silvia", "Lucas"];
+let nomes = ["João", "Ana"];
 let teste = [true, false, true, false];
 
-console.log(nome.length);
+console.log(nomes.length);
 console.log(teste.length);
