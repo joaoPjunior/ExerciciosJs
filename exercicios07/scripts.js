@@ -1,5 +1,5 @@
-let dados = ["serrana", "Serra azul", "Cajuru", "Pradopolis"];
+let nomes = ["Juca", "João", "Joaquim", "José", "Jeremias"];
 
-for(let i = 0; i < dados.length; i++){
-    console.log(dados[i]);
+for(let i = 0; i < nomes.length; i++){
+    console.log(nomes[i]);
 }
