@@ -1,9 +1,8 @@
-let nome = ["João", "Jorge", "Lucas", "Pedro", "Ana", "Marta"];
+let nomes = ["João", "Mateus", "Silvio", "Torres"];
 
-if(nome.includes("João")){
-    console.log("O nome foi encontrado")
-}else{
-    console.log("O nome não foi encontrado");
+
+if (nomes.includes("João")){
+    console.log("O nome João está na Lista");
+}else {
+    console.log("Não foi encontrado o nome João na lista");
 }
-
-console.log(nome);
