@@ -1,12 +1,11 @@
 let pessoa = {
-    "Idade": 18,
-    "Altura": 175,
-    "Peso": 61,
-    "Profissão": "Programador"
+    "Nome": "João",
+    "Idade": 28,
+    "Profissão": "Progamador",
+    "Sexo": "Masculino",
 };
 
-
+console.log(pessoa.Nome);
 console.log(pessoa.Idade);
-console.log(pessoa.Altura);
-console.log(pessoa.Peso);
 console.log(pessoa.Profissão);
+console.log(pessoa.Sexo);
