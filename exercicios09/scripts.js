@@ -1,7 +1,7 @@
-let frase = "Eu amo Jesus Cristo, Ele é meu refugio, em quem eu confio";
+let frase = "Jesus é minha vida, minha rocha, minha fortaleza, minha salvação, socorro bem presente na hora da angustia";
 
-let ArrFrase = frase.split(" ");
+let arrFrase = frase.split (" ");
 
-for(let i = 0; i < ArrFrase.length; i++){
-    console.log(ArrFrase[i]);
+for(let i = 0; i < arrFrase.length; i++){
+    console.log(arrFrase[i]);
 }
