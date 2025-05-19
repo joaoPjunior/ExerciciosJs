@@ -6,7 +6,7 @@ let removercidades = cidades.pop();
 console.log(removercidades);
 console.log(cidades);
 
-cidades.push('Araras');
+cidades.push('Campinas');
 console.log(cidades);
 
 
